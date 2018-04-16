@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono|Roboto:100,300');
+
+$font-stack-mono: 'IBM Plex Mono', monospace;
+$font-stack-sans: 'Roboto', sans-serif;
+
+
+h1, h2, h3, h4, h5 {
+  font-family: $font-stack-mono;
+  text-transform: uppercase;
+  letter-spacing: .25em;
+}
+p {
+  font-family: $font-stack-sans;
+  font-weight: 100;
+  letter-spacing: .15em;
+}
