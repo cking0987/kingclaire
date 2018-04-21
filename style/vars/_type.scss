@@ -3,14 +3,18 @@
 $font-stack-mono: 'IBM Plex Mono', monospace;
 $font-stack-sans: 'Roboto', sans-serif;
 
-
+body {
+  font-family: $font-stack-sans;
+}
 h1, h2, h3, h4, h5 {
   font-family: $font-stack-mono;
   text-transform: uppercase;
   letter-spacing: .25em;
+  color: $dark-1;
 }
 p {
   font-family: $font-stack-sans;
   font-weight: 100;
   letter-spacing: .15em;
+  color: $dark-2;
 }

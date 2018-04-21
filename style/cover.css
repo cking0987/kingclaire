@@ -6,17 +6,17 @@
 a,
 a:focus,
 a:hover {
-  color: $light-1;
+  color: #fff;
 }
 
 /* Custom default button */
 .btn-secondary,
 .btn-secondary:hover,
 .btn-secondary:focus {
-  color: $light-1;
+  color: #333;
   text-shadow: none; /* Prevent inheritance from `body` */
-  background-color: $light-1;
-  border: .05rem solid $light-1;
+  background-color: #fff;
+  border: .05rem solid #fff;
 }
 
 
@@ -49,5 +49,5 @@ body {
  * Footer
  */
 .mastfoot {
-  color: rgba( $med-2, .5 );
+  color: rgba(255, 255, 255, .5);
 }

@@ -1,0 +1,15 @@
+.about-claire {
+  a {
+    color: $light-2;
+    width: 10rem;
+
+    &:hover {
+      color: $med-2;
+    }
+  }
+  .svg-inline--fa {
+    margin: 1rem;
+    font-size: 3rem;
+  }
+
+}
