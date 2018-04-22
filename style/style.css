@@ -9,6 +9,16 @@ p { font-family: "Roboto", sans-serif; font-weight: 100; letter-spacing: .15em; 
 .about-claire a:hover { color: #8560a8; }
 .about-claire .svg-inline--fa { margin: 1rem; font-size: 3rem; }
 
+.cloud-suit .card { margin: 30px 15px; }
+.cloud-suit .local-movie-container { width: 100%; }
+.cloud-suit .local-movie-container video { width: 100%; }
+.cloud-suit .pdf-embed { width: 100%; }
+@media screen and (max-width: 576px) { .cloud-suit .pdf-embed { height: 78vw; } }
+@media screen and (min-width: 576px) and (max-width: 767px) { .cloud-suit .pdf-embed { height: 420px; } }
+@media screen and (min-width: 767px) and (max-width: 992px) { .cloud-suit .pdf-embed { height: 550px; } }
+@media screen and (min-width: 992px) and (max-width: 1200px) { .cloud-suit .pdf-embed { height: 740px; } }
+@media screen and (min-width: 1200px) { .cloud-suit .pdf-embed { height: 865px; } }
+
 .background-image { width: 100%; height: 100%; background-image: url("/assets/img/cloud-bg2.jpg"); background-attachment: fixed; background-size: cover; position: fixed; z-index: -3; }
 
 .background-filter { width: 100%; height: 100%; background-image: radial-gradient(white 50%, rgba(255, 255, 255, 0.5), rgba(243, 247, 252, 0.5)); background-attachment: fixed; position: fixed; z-index: -2; }

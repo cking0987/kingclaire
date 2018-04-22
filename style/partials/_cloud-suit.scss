@@ -1,0 +1,29 @@
+.cloud-suit {
+  .card {
+    margin: 30px 15px;
+  }
+  .local-movie-container {
+    width: 100%;
+    video {
+      width: 100%;
+    }
+  }
+  .pdf-embed {
+    width: 100%;
+    @media screen and (max-width:576px) {
+    height:78vw;
+    }
+    @media screen and (min-width:576px) and (max-width:767px) {
+    height:420px;
+    }
+    @media screen and (min-width:767px) and (max-width:992px) {
+    height:550px;
+    }
+    @media screen and (min-width:992px) and (max-width:1200px) {
+    height:740px;
+    }
+    @media screen and (min-width:1200px) {
+    height:865px;
+    }
+  }
+}
