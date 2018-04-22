@@ -10,8 +10,6 @@ p { font-family: "Roboto", sans-serif; font-weight: 100; letter-spacing: .15em; 
 .about-claire .svg-inline--fa { margin: 1rem; font-size: 3rem; }
 
 .cloud-suit .card { margin: 30px 15px; }
-.cloud-suit .local-movie-container { width: 100%; }
-.cloud-suit .local-movie-container video { width: 100%; }
 .cloud-suit .pdf-embed { width: 100%; }
 @media screen and (max-width: 576px) { .cloud-suit .pdf-embed { height: 78vw; } }
 @media screen and (min-width: 576px) and (max-width: 767px) { .cloud-suit .pdf-embed { height: 420px; } }
@@ -24,6 +22,8 @@ p { font-family: "Roboto", sans-serif; font-weight: 100; letter-spacing: .15em; 
 .background-filter { width: 100%; height: 100%; background-image: radial-gradient(white 50%, rgba(255, 255, 255, 0.5), rgba(243, 247, 252, 0.5)); background-attachment: fixed; position: fixed; z-index: -2; }
 
 .background-texture { width: 100%; height: 100%; background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAHklEQVQYV2NkQAL/GRgaGGF8KAciAOOA2IzIHJAAAPCrB4Rj81dwAAAAAElFTkSuQmCC) repeat; background-attachment: fixed; position: fixed; z-index: -1; }
+
+.card { margin: 30px; }
 
 footer { margin-top: 5rem; }
 footer p { font-family: "IBM Plex Mono", monospace; font-weight: 500; text-transform: uppercase; }
