@@ -1,0 +1,22 @@
+.footer {
+  @media screen and (max-width:576px) {
+    height: auto;
+    line-height: 1rem;
+    position: static;
+    padding-top: 1rem;
+    p {
+      margin-bottom: 3px;
+    }
+  }
+  position: sticky;
+  height: 60px; /* Set the fixed height of the footer here */
+  line-height: 60px; /* Vertically center the text there */
+  bottom: 0;
+  width: 100%;
+  background-color: rgba(255,255,255,.5);
+  p {
+    font-family: $font-stack-mono;
+    font-weight: 500;
+    text-transform: uppercase;
+  }
+}

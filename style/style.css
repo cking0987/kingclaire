@@ -9,6 +9,11 @@ p { font-family: "Roboto", sans-serif; font-weight: 100; letter-spacing: .15em; 
 .about-claire a:hover { color: #8560a8; }
 .about-claire .svg-inline--fa { margin: 1rem; font-size: 3rem; }
 
+.footer { position: -webkit-sticky; position: sticky; height: 60px; /* Set the fixed height of the footer here */ line-height: 60px; /* Vertically center the text there */ bottom: 0; width: 100%; background-color: rgba(255, 255, 255, 0.5); }
+@media screen and (max-width: 576px) { .footer { height: auto; line-height: 1rem; position: static; padding-top: 1rem; }
+  .footer p { margin-bottom: 3px; } }
+.footer p { font-family: "IBM Plex Mono", monospace; font-weight: 500; text-transform: uppercase; }
+
 .home-img { margin-bottom: 8rem; }
 @media screen and (max-width: 576px) { .home-img { width: 100%; } }
 @media screen and (min-width: 576px) { .home-img { width: 40%; min-width: 300px; margin-top: 4rem; } }
@@ -29,8 +34,8 @@ p { font-family: "Roboto", sans-serif; font-weight: 100; letter-spacing: .15em; 
 
 .card { margin: 30px; -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
 
-footer { margin-top: 5rem; }
-footer p { font-family: "IBM Plex Mono", monospace; font-weight: 500; text-transform: uppercase; }
+.cloud-banner { width: 100%; }
+.cloud-banner img { width: 100%; }
 
 .navbar-light .navbar-toggler-icon { background-image: url("/assets/img/hamburger-icon.png"); background-repeat: no-repeat; background-size: 100% 100%; }
 
