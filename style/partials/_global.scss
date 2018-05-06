@@ -44,6 +44,7 @@
 .citation {
   text-align: right;
   font-weight: 300;
-  position: relative;
-  bottom: 1rem;
+}
+.horizontal-scroll {
+  overflow: scroll;
 }

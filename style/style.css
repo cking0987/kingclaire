@@ -18,6 +18,7 @@ p { font-family: "Roboto", sans-serif; font-weight: 100; letter-spacing: .15em; 
 @media screen and (max-width: 576px) { .home-img { width: 100%; } }
 @media screen and (min-width: 576px) { .home-img { width: 40%; min-width: 300px; margin-top: 4rem; } }
 
+.cloud-suit .cshse { width: 448rem; height: 28rem; }
 .cloud-suit .card { margin: 30px 15px; }
 .cloud-suit .pdf-embed { width: 100%; }
 @media screen and (max-width: 576px) { .cloud-suit .pdf-embed { height: 78vw; } }
@@ -40,7 +41,9 @@ p { font-family: "Roboto", sans-serif; font-weight: 100; letter-spacing: .15em; 
 
 .blockquote, .citation { font-size: .9rem; font-style: italic; text-align: justify; color: #8560a8; padding: 0 5rem; }
 
-.citation { text-align: right; font-weight: 300; position: relative; bottom: 1rem; }
+.citation { text-align: right; font-weight: 300; }
+
+.horizontal-scroll { overflow: scroll; }
 
 .cloud-banner { width: 100%; }
 .cloud-banner img { width: 100%; }
