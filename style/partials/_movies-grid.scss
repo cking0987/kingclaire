@@ -2,6 +2,7 @@
   .card-deck .card {
     flex: inherit;
     margin-bottom: 15px;
+    width: 100%;
   }
   @media screen and (min-width:992px) {
     .card-deck {
