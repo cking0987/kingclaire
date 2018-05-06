@@ -38,6 +38,10 @@ p { font-family: "Roboto", sans-serif; font-weight: 100; letter-spacing: .15em; 
 
 .no-border { border: none; }
 
+.blockquote, .citation { font-size: .9rem; font-style: italic; text-align: justify; color: #8560a8; padding: 0 5rem; }
+
+.citation { text-align: right; font-weight: 300; position: relative; bottom: 1rem; }
+
 .cloud-banner { width: 100%; }
 .cloud-banner img { width: 100%; }
 

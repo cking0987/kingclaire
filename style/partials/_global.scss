@@ -34,3 +34,16 @@
 .no-border {
   border: none;
 }
+.blockquote, .citation {
+  font-size: .9rem;
+  font-style: italic;
+  text-align: justify;
+  color: $med-2;
+  padding: 0 5rem;
+}
+.citation {
+  text-align: right;
+  font-weight: 300;
+  position: relative;
+  bottom: 1rem;
+}
