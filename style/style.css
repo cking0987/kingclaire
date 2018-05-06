@@ -9,10 +9,10 @@ p { font-family: "Roboto", sans-serif; font-weight: 100; letter-spacing: .15em; 
 .about-claire a:hover { color: #8560a8; }
 .about-claire .svg-inline--fa { margin: 1rem; font-size: 3rem; }
 
-.footer { position: -webkit-sticky; position: sticky; height: 60px; /* Set the fixed height of the footer here */ line-height: 60px; /* Vertically center the text there */ bottom: 0; width: 100%; background-color: rgba(255, 255, 255, 0.5); }
-@media screen and (max-width: 576px) { .footer { height: auto; line-height: 1rem; position: static; padding-top: 1rem; }
-  .footer p { margin-bottom: 3px; } }
-.footer p { font-family: "IBM Plex Mono", monospace; font-weight: 500; text-transform: uppercase; }
+.footer { position: static; background-color: rgba(255, 255, 255, 0.5); width: 100%; padding: 1rem 0; }
+.footer p { font-family: "IBM Plex Mono", monospace; font-weight: 500; text-transform: uppercase; margin: 0; }
+.footer.sticky { position: absolute; bottom: 0; }
+@media screen and (max-width: 576px) { .footer p { font-size: .7rem; } }
 
 .home-img { margin-bottom: 8rem; }
 @media screen and (max-width: 576px) { .home-img { width: 100%; } }
@@ -41,7 +41,7 @@ p { font-family: "Roboto", sans-serif; font-weight: 100; letter-spacing: .15em; 
 
 .navbar { margin-bottom: 30px; }
 
-.claire-movies-grid .card-deck .card { -webkit-box-flex: inherit; -ms-flex: inherit; flex: inherit; margin-bottom: 15px; }
+.claire-movies-grid .card-deck .card { -webkit-box-flex: inherit; -ms-flex: inherit; flex: inherit; margin-bottom: 15px; width: 100%; }
 @media screen and (min-width: 992px) { .claire-movies-grid .card-deck { margin: 30px 0; }
   .claire-movies-grid .card-deck .card { -webkit-box-flex: 1; -ms-flex: 1 1 0%; flex: 1 1 0%; margin: 0 15px; } }
 .claire-movies-grid .local-movie-container { width: 100%; }
