@@ -20,6 +20,8 @@ p { font-family: "Roboto", sans-serif; font-weight: 100; letter-spacing: .15em; 
 
 .cloud-suit .cshse { width: 448rem; height: 28rem; }
 .cloud-suit .card { margin: 30px 15px; }
+.cloud-suit .scroll-indicator { color: #7da7d9; }
+.cloud-suit .scroll-indicator .svg-inline--fa { color: #f49ac1; }
 .cloud-suit .pdf-embed { width: 100%; }
 @media screen and (max-width: 576px) { .cloud-suit .pdf-embed { height: 78vw; } }
 @media screen and (min-width: 576px) and (max-width: 767px) { .cloud-suit .pdf-embed { height: 420px; } }
@@ -43,7 +45,7 @@ p { font-family: "Roboto", sans-serif; font-weight: 100; letter-spacing: .15em; 
 
 .citation { text-align: right; font-weight: 300; }
 
-.horizontal-scroll { overflow: scroll; }
+.horizontal-scroll { overflow: scroll; overflow-y: hidden; }
 
 .cloud-banner { width: 100%; }
 .cloud-banner img { width: 100%; }
